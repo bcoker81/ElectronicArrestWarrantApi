@@ -10,7 +10,7 @@ namespace ElectronicArrestWarrantApi.Models
     {
         public ArrestWarrantDbContext() : base("name=ArrestWarrant")
         {
-
+            this.Configuration.ProxyCreationEnabled = false;
         }
 
         public DbSet<EntryModel> Warrants { get; set; }
