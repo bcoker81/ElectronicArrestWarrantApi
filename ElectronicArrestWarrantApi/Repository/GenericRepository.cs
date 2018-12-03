@@ -7,7 +7,7 @@ using System.Web;
 
 namespace ElectronicArrestWarrantApi.Repository
 {
-    public class GenericRepository<TEntity> : IDisposable, IRepository<TEntity>, IGenericRepository<TEntity> where TEntity : class
+    public class GenericRepository<TEntity> : IDisposable, IRepository<TEntity> where TEntity : class
     {
         private ArrestWarrantDbContext _context;
 

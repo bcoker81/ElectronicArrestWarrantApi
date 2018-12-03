@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ElectronicArrestWarrantApi.Interfaces
 {
-    public interface IGenericRepository<TEntity> where TEntity : class
+    public interface IRepository<TEntity> where TEntity : class
     {
         void Add(TEntity item);
         void Delete(TEntity item);
