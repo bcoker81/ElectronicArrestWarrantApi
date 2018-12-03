@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicArrestWarrantApi", "ElectronicArrestWarrantApi\ElectronicArrestWarrantApi.csproj", "{973DF54A-A9DC-4124-867E-BBD6DF434843}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicArrestWarrantTests", "..\ElectronicArrestWarrantTests\ElectronicArrestWarrantTests.csproj", "{3DF69E44-A66F-4BC9-B17A-F5417B5D973C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicArrestWarrant.Domain", "ElectronicArrestWarrant.Domain\ElectronicArrestWarrant.Domain.csproj", "{EA6EEF70-5023-45C1-86A2-36728FF09CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicArrestWarrant.Entities", "ElectronicArrestWarrant.Entities\ElectronicArrestWarrant.Entities.csproj", "{ED10E8D0-86B0-4570-8451-DF5955412FB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{973DF54A-A9DC-4124-867E-BBD6DF434843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{973DF54A-A9DC-4124-867E-BBD6DF434843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{973DF54A-A9DC-4124-867E-BBD6DF434843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF69E44-A66F-4BC9-B17A-F5417B5D973C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF69E44-A66F-4BC9-B17A-F5417B5D973C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF69E44-A66F-4BC9-B17A-F5417B5D973C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF69E44-A66F-4BC9-B17A-F5417B5D973C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6EEF70-5023-45C1-86A2-36728FF09CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6EEF70-5023-45C1-86A2-36728FF09CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6EEF70-5023-45C1-86A2-36728FF09CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6EEF70-5023-45C1-86A2-36728FF09CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED10E8D0-86B0-4570-8451-DF5955412FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED10E8D0-86B0-4570-8451-DF5955412FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED10E8D0-86B0-4570-8451-DF5955412FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED10E8D0-86B0-4570-8451-DF5955412FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
