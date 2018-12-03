@@ -15,5 +15,8 @@ namespace ElectronicArrestWarrantApi.Models
 
         public DbSet<EntryModel> Warrants { get; set; }
         public DbSet<PersonModel> Persons { get; set; }
+        public DbSet<AddressModel> Addresses { get; set; }
+        public DbSet<SupplementalNameModel> SupplementalNames { get; set; }
+        public DbSet<ChargeModel> Charges { get; set; }
     }
 }

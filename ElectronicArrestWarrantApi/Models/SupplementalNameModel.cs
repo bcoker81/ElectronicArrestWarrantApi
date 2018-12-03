@@ -15,5 +15,8 @@ namespace ElectronicArrestWarrantApi.Models
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
         public string LastName { get; set; }
+        public int FkPersonId { get; set; }
+        [ForeignKey("FkPersonId")]
+        public PersonModel Person { get; set; }
     }
 }

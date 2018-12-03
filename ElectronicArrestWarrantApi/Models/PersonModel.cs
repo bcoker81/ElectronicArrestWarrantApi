@@ -27,6 +27,8 @@ namespace ElectronicArrestWarrantApi.Models
         public int Gender { get; set; }
         public int FkEntryId { get; set; }
 
+        public ICollection<SupplementalNameModel> SupplementalNames { get; set; }
+
         [ForeignKey("FkEntryId")]
         public EntryModel Entry { get; set; }
     }
